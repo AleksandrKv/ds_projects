@@ -3,16 +3,15 @@
 ## Оглавление  
 [1. Описание проекта](https://github.com/AleksandrKv/ds_projects/tree/main/project_0_guess-number/README.md#Описание-проекта)  
 [2. Какой кейс решаем?](https://github.com/AleksandrKv/ds_projects/tree/main/project_0_guess-number/README.md#Какой-кейс-решаем)  
-[3. Краткая информация о данных](.README.md#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](.README.md#Этапы-работы-над-проектом)  
-[5. Результат](.README.md#Результат)    
-[6. Выводы](.README.md#Выводы) 
+[3. Краткая информация о данных](https://github.com/AleksandrKv/ds_projects/tree/main/project_0_guess-number/README.md#Краткая-информация-о-данных)  
+[4. Этапы работы над проектом](https://github.com/AleksandrKv/ds_projects/tree/main/project_0_guess-number/README.md#Этапы-работы-над-проектом)  
+[5. Результат](https://github.com/AleksandrKv/ds_projects/tree/main/project_0_guess-number/README.md#Результат)    
+[6. Выводы](https://github.com/AleksandrKv/ds_projects/tree/main/project_0_guess-number/README.md#Выводы) 
 
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.
 
-:arrow_up:[к оглавлению](_)
-
+:arrow_up:[к оглавлению](https://github.com/AleksandrKv/ds_projects/tree/main/project_0_guess-number/README.md#Оглавление)
 
 ### Какой кейс решаем?    
 Нужно написать программу, которая угадывает число за минимальное число попыток
@@ -29,27 +28,26 @@
 
 
 ### Краткая информация о данных
-....
+нет
   
-:arrow_up:[к оглавлению](.README.md#Оглавление)
-
+:arrow_up:[к оглавлению](https://github.com/AleksandrKv/ds_projects/tree/main/project_0_guess-number/README.md#Оглавление)
 
 ### Этапы работы над проектом  
-....
+нет
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/AleksandrKv/ds_projects/tree/main/project_0_guess-number/README.md#Оглавление)
 
 
 ### Результаты:  
-....
+Число отгадывается в среднем за 5-7 попыток
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/AleksandrKv/ds_projects/tree/main/project_0_guess-number/README.md#Оглавление)
 
 
 ### Выводы:  
-....
+Задание выполнено
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/AleksandrKv/ds_projects/tree/main/project_0_guess-number/README.md#Оглавление)
 
 
-Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарен, если отметите репозиторий и профиль ⭐️⭐️⭐️-дами
+Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарен, если отметите репозиторий и профиль ⭐️⭐️⭐️⭐️⭐️-дами

@@ -2,7 +2,7 @@
 
 В данном репозитории содержатся исходные коды проектов, выполненных в ходе обучения по специальности Data Science.
 
-* [Проект 0. Игра: Угадай число](https://github.com/AleksandrKv/ds_projects/tree/main/guess-number-task)
+* [Проект 0. Игра: Угадай число](https://github.com/AleksandrKv/ds_projects/tree/main/project_0_guess-number)
 * [Проект 1. _________]()
 * [Проект 2. _________]()
 

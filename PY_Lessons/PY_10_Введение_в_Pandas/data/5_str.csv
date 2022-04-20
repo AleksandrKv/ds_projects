@@ -1,0 +1,6 @@
+;index;Suburb;Address;Rooms;Type;Price;Method;SellerG;Date;Distance;Postcode;Bedroom;Bathroom;Car;Landsize;BuildingArea;YearBuilt;CouncilArea;Lattitude;Longtitude;Regionname;Propertycount;Coordinates
+13575;13575;Wheelers Hill;12 Strada Cr;4;h;1245000.0;S;Barry;26/08/2017;16.7;3150;4.0;2.0;2.0;652.0;126.0;1981.0;;-37.90562;145.16761;South-Eastern Metropolitan;7392.0;-37.90562, 145.16761
+13576;13576;Williamstown;77 Merrett Dr;3;h;1031000.0;SP;Williams;26/08/2017;6.8;3016;3.0;2.0;2.0;333.0;133.0;1995.0;;-37.85927;144.87904;Western Metropolitan;6380.0;-37.85927, 144.87904
+13577;13577;Williamstown;83 Power St;3;h;1170000.0;S;Raine;26/08/2017;6.8;3016;3.0;2.0;4.0;436.0;126.0;1997.0;;-37.85274;144.88738;Western Metropolitan;6380.0;-37.85274, 144.88738
+13578;13578;Williamstown;96 Verdon St;4;h;2500000.0;PI;Sweeney;26/08/2017;6.8;3016;4.0;1.0;5.0;866.0;157.0;1920.0;;-37.85908;144.89299;Western Metropolitan;6380.0;-37.85908, 144.89299
+13579;13579;Yarraville;6 Agnes St;4;h;1285000.0;SP;Village;26/08/2017;6.3;3013;4.0;1.0;1.0;362.0;112.0;1920.0;;-37.81188;144.88449;Western Metropolitan;6543.0;-37.81188, 144.88449

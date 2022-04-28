@@ -1,11 +1,114 @@
+from pkgutil import extend_path
 from telnetlib import TTYLOC
+import datetime as dt
 import tkinter as tk
+import tkinter.filedialog as fd
 from tkinter import ttk
 from turtle import color
 import data_manager as dm
+import pandas as pd
+import os
+
+from models import *
+
+def get_bank_card(card_number):
+    sel = BankCard.select().where(BankCard.number == card_number)
+    if len(sel) != 1:
+        print("В базе данных не найдена банковская карта с запрашиваемым именем")
+        return
+    bank_card = sel.get()
+    print(f'{bank_card.name}: {bank_card.number}')
+    return bank_card
+
+def get_dt_from_pandas(value):
+    return dt.datetime(
+        value.year,
+        value.month,
+        value.day,
+        value.hour,
+        value.minute,
+        value.second
+    )
 
 def OnClick_Load_сard_operations():
-    print('Hello!')
+
+    # Выбрать файл
+    filetypes = (("CSV", "*.csv"),
+                    ("Сбербанк PDF", "*.pdf"),
+                    ("Любой", "*"))                
+    filename = fd.askopenfilename(title="Открыть файл", #initialdir=os.getcwd(), #"/",
+                                    filetypes=filetypes)
+    if filename:
+        print(filename)    
+
+    ext =  os.path.splitext(filename)[1].lower()
+
+    # Загрузить файл в DataFrame
+    if ext == '.csv':
+        df = pd.read_csv(filename, sep=';', encoding='cp1251')
+
+    # Создать столбец "date" (перобразовать тип поля текст в дату)
+    df["date"] = pd.to_datetime(df["Дата операции"], dayfirst=True)
+    
+    # Расчет приходов и расходов по карте за период
+    mask_receipt = df["Сумма операции в валюте карты"] > 0
+    mask_expense = df["Сумма операции в валюте карты"] < 0
+    df['receipt'] = df[mask_receipt]["Сумма операции в валюте карты"]
+    df['expense'] = -df[mask_expense]["Сумма операции в валюте карты"]
+    # df.receipt.sum(), df.expense.sum()
+
+    # Получить объект банковской карты
+    sel = BankCard.select().where(BankCard.number == '2200020233972043')
+    if len(sel) != 1:
+        print("В базе данных не найдена банковская карта с запрашиваемым именем")
+        return
+    bank_card = sel.get()
+
+    # Проверить наличие записей по этой карте за период (для удаления)
+    d1 = df.date.min().date()
+    d2 = (df.date.max()+pd.offsets.Day(1)).date()
+    sel = PamentBankCard.select().where(
+        (PamentBankCard.card_id == bank_card) 
+        & (PamentBankCard.date >= d1) 
+        & (PamentBankCard.date < d2)
+        )
+    delete_count = len(sel)
+
+    # Начало транзакции удаления/записи
+    with db.atomic() as transaction:  # transaction.rollback()
+    
+        # Удалить записи по загружаемому периоду
+        if delete_count > 0:
+            try:
+                for rec in sel:
+                    rec.delete_instance()
+                print(f'Количество удаленных записей: {delete_count}')
+            except:
+                print('При попцтке удления возникла ошибка')
+                transaction.rollback()
+
+        # Записать операции по карте в базу данных
+        try:
+            bank_card = get_bank_card('2200020233972043')
+
+            payments = [PamentBankCard(
+                    card_id      = bank_card, 
+                    date         = get_dt_from_pandas(rec.date),
+                    date_account = dt.datetime.now(), #['Дата обработки'],
+                    name         = rec['Название операции'],
+                    amount       = rec['Сумма операции в валюте карты'],
+                    category     = rec['Категория'],
+                    place        = rec['Место операции'],
+                ) for i,rec in df.iterrows()
+            ]
+            PamentBankCard.bulk_create(payments, batch_size=999)
+        except:
+            print('При попытке сохранить в базу данных загруженные данные возникла ошибка')
+            transaction.rollback()
+
+    # print(filename)    
+    # print(df.head())    
+    
     
 window = tk.Tk()
 window.title('Tests tkinter')

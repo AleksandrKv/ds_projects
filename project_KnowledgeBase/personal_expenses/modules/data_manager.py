@@ -1,4 +1,4 @@
-from models import *
+from modules.models import *
 
 def get_payments():    
     with db:
@@ -13,6 +13,8 @@ def create_new_base():
     connetion.close()
 
     # создать таблицы 
+    FNS_Receipt.create_table()
+    FNS_Receipt_Product.create_table()
     PaymentAccount.create_table()
     BankCard.create_table()
     PamentBankCard.create_table()

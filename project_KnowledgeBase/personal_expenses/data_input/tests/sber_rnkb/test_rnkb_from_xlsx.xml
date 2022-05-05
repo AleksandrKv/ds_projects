@@ -1,0 +1,1052 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2022-05-04T12:28:46Z</Created>
+  <LastSaved>2022-04-26T06:01:54Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12300</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Serif" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s17">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF"/>
+   <NumberFormat/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Serif" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Serif" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Serif" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Serif" x:Family="Swiss" ss:Size="9" ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFFFF"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Serif" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Serif" x:Family="Swiss" ss:Size="9" ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFFFF"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF"/>
+   <NumberFormat ss:Format="Short Date"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF"/>
+   <NumberFormat/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="11"
+    ss:Color="#00AEC7"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF"/>
+   <NumberFormat ss:Format="Standard"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Serif" x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Serif" x:Family="Swiss" ss:Color="#000000" ss:Italic="1"/>
+   <Interior ss:Color="#FFFFFF"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Serif" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="JR_PAGE_ANCHOR_0_1" ss:RefersTo="='2043'!R1C1"/>
+ </Names>
+ <Worksheet ss:Name="2043">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="75" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="80.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="81"/>
+   <Column ss:AutoFitWidth="0" ss:Width="168.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="101.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="69.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="96"/>
+   <Column ss:AutoFitWidth="0" ss:Width="85.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="87.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="122.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625">
+    <Cell ss:MergeAcross="1" ss:StyleID="s33"><Data ss:Type="String">История операций сформирована</Data><NamedCell
+      ss:Name="JR_PAGE_ANCHOR_0_1"/></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">26.04.2022 08:56</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625">
+    <Cell ss:MergeAcross="1" ss:StyleID="s33"><Data ss:Type="String">Карта</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Карта Дебетовая MASS N *2043</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="DateTime">2021-04-26T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">353&#160;151.21&#160;</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Остаток (после перевода на 50225 руб.</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625">
+    <Cell ss:MergeAcross="1" ss:StyleID="s31"><Data ss:Type="String">Валюта карты</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s30" ss:Formula="=353151.21+50225"><Data ss:Type="Number">403376.21</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">остаток на утро 26.04.22</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625">
+    <Cell ss:MergeAcross="1" ss:StyleID="s33"><Data ss:Type="String">Начало периода</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">01.04.2022</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625">
+    <Cell ss:MergeAcross="1" ss:StyleID="s33"><Data ss:Type="String">Конец периода</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">26.04.2022</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625">
+    <Cell ss:MergeAcross="1" ss:StyleID="s31"><Data ss:Type="String">Поступления</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">19 416.61</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625">
+    <Cell ss:MergeAcross="1" ss:StyleID="s31"><Data ss:Type="String">Расходы</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">461 698.81</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625">
+    <Cell ss:MergeAcross="1" ss:StyleID="s32"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625">
+    <Cell ss:MergeAcross="2" ss:StyleID="s33"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.0625">
+    <Cell ss:MergeAcross="1" ss:StyleID="s33"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27.9375">
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Дата операции</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Дата обработки</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Название операции</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Сумма операции в валюте карты</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Комиссия в валюте карты</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Сумма операции в валюте операции</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Валюта операции</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Категория</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Место операции</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">01.04.2022 08:39</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">01.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-50 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-50 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Другое</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">01.04.2022 14:37</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">01.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Выдача наличных RUS SEVASTOPOL ATM-8316</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-49 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-49 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Снятие наличных</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">02.04.2022 10:24</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">04.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS Moskva Sevstar</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-560.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-560.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Коммунальные услуги</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">02.04.2022 13:15</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">04.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL MFM</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-910.33</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-910.33</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">02.04.2022 13:15</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">04.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL MIASNOI MAGAZIN</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-839.94</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-839.94</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Одежда, обувь, украшения</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">02.04.2022 13:30</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">04.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL OOO REAL</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-1 073.40</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-1 073.40</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">02.04.2022 14:03</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">04.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL PIVASOV</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-232.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-232.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">03.04.2022 10:40</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">04.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL SVETOTEKHNIKA I KREPEZH</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-2 900.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-2 900.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Все для дома</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">03.04.2022 10:41</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">04.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL SVETOTEKHNIKA I KREPEZH</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-100.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-100.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Все для дома</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">03.04.2022 11:12</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">04.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL MAGAZIN SVETOMANIIA</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-2 899.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-2 899.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Все для дома</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">03.04.2022 11:50</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">04.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL MAGAZIN RODNIK</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-170.96</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-170.96</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Все для дома</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">04.04.2022 17:32</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">04.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Списание по переводу с карты на карту RUS SIMFEROPOL MP2P4IN К-В ДЕНИС А</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-700.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-700.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Платежи и переводы</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">04.04.2022 23:18</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">05.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Списание по переводу с карты на карту RUS SIMFEROPOL MP2P4IN К-А ЕКАТЕРИНА П</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-500.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-500.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Платежи и переводы</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">05.04.2022 09:55</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">05.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Перевод денежных средств по картам Банка Transfer</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-5 656.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-5 656.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Другое</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">05.04.2022 14:20</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">05.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-30 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-30 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Другое</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">05.04.2022 16:43</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL OOO BDS</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-14.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-14.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Автомобили</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">05.04.2022 17:01</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL IP TAMRAZIAN G.L.</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-300.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-300.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">05.04.2022 17:42</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL OOO BDS</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-35.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-35.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Автомобили</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">05.04.2022 17:54</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL KAFE KOFFISHKA</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-560.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-560.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Ресторан, кафе, бар</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">05.04.2022 18:36</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL ZOLOTAYA BALKA</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-945.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-945.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">05.04.2022 20:17</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL NOVUS</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-429.62</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-429.62</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">05.04.2022 20:18</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL NOVUS</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-165.78</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-165.78</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">05.04.2022 20:18</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL NOVUS</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-164.15</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-164.15</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 10:32</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">07.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL SEV.VAKULENCHUKA.29, K.2</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-1 350.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-1 350.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Бытовая техника</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 13:59</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">07.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL Magazin &quot;Posuda&quot;</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-515.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-515.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Все для дома</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 14:58</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Выдача наличных RUS SEVASTOPOL' ATM-8750</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-50 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-50 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Снятие наличных</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 18:32</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Списание по переводу с карты на карту RUS SIMFEROPOL MP2P4IN Н-Я АНЖЕЛИКА В</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-500.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-500.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Платежи и переводы</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 21:17</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">07.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL PUD 108</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-769.50</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-769.50</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">06.04.2022 21:33</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">07.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL IP_TOLCHINA</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-636.92</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-636.92</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">09.04.2022 09:48</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">11.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Выдача наличных RUS SEVASTOPOL ATM-8173</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-45 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-45 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Снятие наличных</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">09.04.2022 09:50</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">11.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL' NTO VAKULENCHUKA, 18</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-68.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-68.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">09.04.2022 21:46</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">11.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS Moskva Sevstar</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-635.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-635.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Коммунальные услуги</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">09.04.2022 21:54</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">11.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS Moskva Sevstar</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-423.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-423.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Коммунальные услуги</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">10.04.2022 10:34</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">11.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL NOVUS</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-363.79</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-363.79</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">11.04.2022 09:44</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">12.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL EVROTRANS</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-26.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-26.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Транспорт, туризм</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">12.04.2022 08:09</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">13.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL AZS 85 ATAN</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-2 799.50</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-2 799.50</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Автомобили</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">12.04.2022 21:36</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">13.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL NOVUS</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-1 371.57</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-1 371.57</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">13.04.2022 11:11</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">13.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-15 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-15 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Другое</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">14.04.2022 18:13</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">14.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Перевод денежных средств по картам Банка Transfer</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-525.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-525.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Другое</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">14.04.2022 20:53</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">15.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL NOVUS</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-4 445.64</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-4 445.64</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">15.04.2022 08:08</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">15.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Выдача наличных RUS SEVASTOPOL ATM-8316</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-20 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-20 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Снятие наличных</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">15.04.2022 14:41</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">18.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL NOVACENTR K LLC</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-948.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-948.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Все для дома</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">16.04.2022 07:59</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">18.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Выдача наличных RUS SEVASTOPOL ATM-8509</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-4 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-4 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Снятие наличных</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">16.04.2022 08:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">18.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Выдача наличных RUS SEVASTOPOL ATM-8509</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-9 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-9 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Снятие наличных</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">16.04.2022 09:50</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">18.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Списание по переводу с карты на карту RUS SIMFEROPOL MP2P4IN Е-Ч ВЛАДИСЛАВ В</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-8 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-8 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Платежи и переводы</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">16.04.2022 12:20</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">18.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL Magazin-sklad &quot;Santekh</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-4 075.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-4 075.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Все для дома</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">16.04.2022 13:47</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">18.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Выдача наличных RUS SEVASTOPOL ATM-8484</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-10 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-10 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Снятие наличных</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">17.04.2022 15:52</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">18.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL MFM</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-813.42</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-813.42</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">17.04.2022 15:53</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">18.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL MIASNOI MAGAZIN</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-429.95</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-429.95</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Одежда, обувь, украшения</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">17.04.2022 15:53</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">18.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL MIASNOI MAGAZIN</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-156.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-156.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Одежда, обувь, украшения</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">18.04.2022 15:25</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">19.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL STROIPARTNER</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-12 750.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-12 750.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Все для дома</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">19.04.2022 16:59</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">19.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Списание по переводу с карты на карту RUS SIMFEROPOL MP2P4IN Л-А ЮЛИЯ П</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-430.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-430.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Платежи и переводы</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">19.04.2022 20:04</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">19.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Зачисление по переводу с карты на карту RUS SIMFEROPOL MP2P4IN Л-Я ОЛЬГА О</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">19 416.61</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">19 416.61</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">20.04.2022 12:33</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">20.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Выдача наличных RUS SEVASTOPOL ATM-8296</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-9 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-9 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Снятие наличных</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">20.04.2022 12:34</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">20.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Выдача наличных RUS SEVASTOPOL ATM-8296</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-9 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-9 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Снятие наличных</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">21.04.2022 20:29</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">21.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Списание по переводу с карты на карту RUS SIMFEROPOL MP2P4IN И-В КОНСТАНТИН Г</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-35 700.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-35 700.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Платежи и переводы</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">21.04.2022 20:34</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">22.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL NOVUS</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-188.70</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-188.70</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">22.04.2022 06:36</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">22.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Списание по переводу с карты на карту RUS SIMFEROPOL MP2P4IN К-А ЕКАТЕРИНА П</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-10 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-10 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Платежи и переводы</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">22.04.2022 19:06</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">25.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL NOVUS</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-941.80</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-941.80</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">24.04.2022 10:09</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">25.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL MFM</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-781.41</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-781.41</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">24.04.2022 10:09</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">25.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL MIASNOI MAGAZIN</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-271.97</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-271.97</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Одежда, обувь, украшения</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">24.04.2022 19:24</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">25.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Покупка RUS SEVASTOPOL NOVUS</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-2 628.46</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-2 628.46</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Супермаркеты</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">26.04.2022 06:02</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">26.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Fee for out SBP SBP perevod</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">225.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">-225.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">-225.00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Другое</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">26.04.2022 06:02</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">26.04.2022 00:00</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-50 000.00</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">0.00</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">-50 000.00</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUR</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Другое</Data></Cell>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0"/>
+    <Footer x:Margin="0"/>
+    <PageMargins x:Bottom="0" x:Left="0" x:Right="0" x:Top="0"/>
+   </PageSetup>
+   <NoSummaryRowsBelowDetail/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -14,89 +14,8 @@ import modules.pe_methods as pe
 
 # from modules.models import *
 
-def OnClick_Load_сard_payments():
-    pe.Load_сard_payments()
-
-    # # Выбрать файл
-    # filetypes = (   ("Форматы выписок (*.xml, *.csv)", ["*.xml", "*.csv"] ),
-    # # filetypes = (("CSV", "*.csv"),
-    #                 ("Сбербанк PDF", "*.pdf"),
-    #                 ("Любой", "*"))                
-    # filename = fd.askopenfilename(title="Открыть файл", #initialdir=os.getcwd(), #"/",
-    #                                 filetypes=filetypes)
-    # if filename:
-    #     print(filename)    
-
-    # ext =  os.path.splitext(filename)[1].lower()
-
-    # # Загрузить файл в DataFrame
-    # if ext == '.csv':
-    #     df = pd.read_csv(filename, sep=';', encoding='cp1251')
-
-    # # Создать столбец "date" (перобразовать тип поля текст в дату)
-    # df["date"] = pd.to_datetime(df["Дата операции"], dayfirst=True)
-    
-    # # Расчет приходов и расходов по карте за период
-    # mask_receipt = df["Сумма операции в валюте карты"] > 0
-    # mask_expense = df["Сумма операции в валюте карты"] < 0
-    # df['receipt'] = df[mask_receipt]["Сумма операции в валюте карты"]
-    # df['expense'] = -df[mask_expense]["Сумма операции в валюте карты"]
-    # # df.receipt.sum(), df.expense.sum()
-
-    # # Получить объект банковской карты
-    # sel = BankCard.select().where(BankCard.number == '2200020233972043')
-    # if len(sel) != 1:
-    #     print("В базе данных не найдена банковская карта с запрашиваемым именем")
-    #     return
-    # bank_card = sel.get()
-
-    # # Проверить наличие записей по этой карте за период (для удаления)
-    # d1 = df.date.min().date()
-    # d2 = (df.date.max()+pd.offsets.Day(1)).date()
-    # sel = PamentBankCard.select().where(
-    #     (PamentBankCard.card_id == bank_card) 
-    #     & (PamentBankCard.date >= d1) 
-    #     & (PamentBankCard.date < d2)
-    #     )
-    # delete_count = len(sel)
-
-    # # Начало транзакции удаления/записи
-    # with db.atomic() as transaction:  # transaction.rollback()
-    
-    #     # Удалить записи по загружаемому периоду
-    #     if delete_count > 0:
-    #         try:
-    #             for rec in sel:
-    #                 rec.delete_instance()
-    #             print(f'Количество удаленных записей: {delete_count}')
-    #         except:
-    #             print('При попцтке удления возникла ошибка')
-    #             transaction.rollback()
-
-    #     # Записать операции по карте в базу данных
-    #     try:
-    #         bank_card = get_bank_card('2200020233972043')
-
-    #         payments = [PamentBankCard(
-    #                 card_id      = bank_card, 
-    #                 date         = get_dt_from_pandas(rec.date),
-    #                 date_account = dt.datetime.now(), #['Дата обработки'],
-    #                 name         = rec['Название операции'],
-    #                 amount       = rec['Сумма операции в валюте карты'],
-    #                 category     = rec['Категория'],
-    #                 place        = rec['Место операции'],
-    #             ) for i,rec in df.iterrows()
-    #         ]
-    #         PamentBankCard.bulk_create(payments, batch_size=999)
-    #     except:
-    #         print('При попытке сохранить в базу данных загруженные данные возникла ошибка')
-    #         transaction.rollback()
-
-    # # print(filename)    
-    # # print(df.head())    
-    
-    
-
+# def OnClick_Load_сard_payments():
+#     pe.Load_сard_payments()
 
 window = tk.Tk()
 window.title('Tests tkinter')
@@ -105,8 +24,11 @@ window.title('Tests tkinter')
 # командная панель
 frame_top = tk.Frame(window, background='#D9D8D7')
 frame_top.pack(side=tk.TOP, fill=tk.X)
-bt1 = tk.Button(frame_top, text="Загрузить выписку", command=OnClick_Load_сard_payments)
+# Кнопки
+bt1 = tk.Button(frame_top, text="Загрузить выписку", command=pe.load_сard_payments_to_sqlite)
 bt1.grid(row=0, column=0, sticky='w', padx=15, pady=5)
+bt2 = tk.Button(frame_top, text="Загрузить файлы json", command=pe.Load_json_files)
+bt2.grid(row=0, column=1, sticky='w', padx=15, pady=5)
 
 # body
 frame_body = tk.Frame(window)

@@ -4,6 +4,7 @@
 """
 
 import sys, os
+import time
 import datetime as dt
 
 ## Функция добавляет папки проекта в sys.path
@@ -58,3 +59,17 @@ def get_dt_from_pandas(value):
         value.minute,
         value.second
     )
+
+def datetime_to_sec1970(value):
+    # Проверка наличия часового пояса в переменной
+    if value.tzinfo == None: 
+        # Установка смещения времени в +00
+        sec1970=value.replace(tzinfo= dt.timezone.utc).timestamp()
+    else:
+        # Расчет секунд с учетом смещения часового пояса
+        sec1970=value.timestamp()
+    return sec1970
+
+def sec1970_to_datetime(sec1970, timezone=None):
+    dt_time = dt.datetime.fromtimestamp(sec1970, tz=timezone)
+    return dt_time

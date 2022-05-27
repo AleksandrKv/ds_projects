@@ -20,7 +20,8 @@ def main_func():
         file_name_output = os.path.splitext(file_name_input)[0] + '.json'
         stop_on_complete = True
     else:
-        file_name_input = 'D:\\YandexDisk\\Мои ДОКУМЕНТЫ\\ООО Арсенал-строй (уу)\\!!! Управленческй учет\\Закрытие 2022-03 (март)\\Выписка по дебетовой карте (на русском) MIR 6753.xml'
+        # file_name_input = 'D:\\YandexDisk\\Мои ДОКУМЕНТЫ\\ООО Арсенал-строй (уу)\\!!! Управленческй учет\\Закрытие 2022-03 (март)\\Выписка по дебетовой карте (на русском) MIR 6753.xml'
+        file_name_input = 'D:\\YandexDisk\\Мои ДОКУМЕНТЫ\\ООО Арсенал-строй (уу)\\!!! Управленческй учет\\Закрытие 2022-02 (февраль)\\Документ-2022-03-05 Maestro 6632.xml'
         file_name_output = os.path.splitext(file_name_input)[0] + '.json'
         stop_on_complete = False
         # print (f"При запуске программы указано не верное число параметров. \n\

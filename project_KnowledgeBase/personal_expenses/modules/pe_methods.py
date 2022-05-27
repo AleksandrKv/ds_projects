@@ -184,16 +184,85 @@ def load_payments_from_XML_sber(file_name):
         for i_cel, tag in enumerate(tag_row.findall('{urn:schemas-microsoft-com:office:spreadsheet}Cell')):            
             text = ''
             for t in tag.itertext():
-                text = t
+                text += t
             row.append(text)
-        if ind < 19:
-            rows.append(row)
-        else:
-            if len(row)==8:
-                rows1.append(row) 
+        rows.append(row)
+        ind +=1
+    
+    ind = 19
+    n_rows = len(rows)
+    while ind < n_rows: 
+
+        row=rows[ind]
+
+        # все строки, длиной 8 ячеек
+        #   Date	    Time  ...   Name	...	         Amount	....	Balance	Amount_num	Balance_num
+        # 0	2022.03.31	15:44		Перевод с карты		5 000,00		337.94	5000.00	337.94
+        # 1	2022.03.31	202880		SBOL перевод 2202****6497 В. СЕРГЕЙ СЕРГЕЕВИЧ					NaN	NaN
+        if len(row)==8:
+            rows1.append(row) 
+        # т.к. дина ячеек <> 8
+        elif len(row) == 1:       
+            if rows[ind-1] == ['В валюте счёта']:
+                
+                spaces = '     '
+                while (spaces in rows[ind][0]) and (n_rows-ind > 5):
+
+                        # проверить задовение 2-х строк в одну (если точнее, то 5 строк в 10. цветной пример см. в xlsx февраль 2022, "Maestro •••• 6632")
+                        packet=1     # число строк в группе (задовения)
+                        if spaces in rows[ind+2*packet][0]: 
+                            packet=2
+                            if spaces in rows[ind+2*packet][0]: 
+                                packet=3
+                                if spaces in rows[ind+2*packet][0]: 
+                                    # перебор. делаем ошибку. 
+                                    res["error_text"] = f'Ошибка формата Сбер_XML. Превышен допустимый размер пакета строк (код 311)'
+                                    return res
+                        for p_ind in range(0, packet):                                
+
+                            # считываем строки и записываем их в rows1 (длиной 8)
+                            r1=8*[""]
+                            r2=8*[""]
+
+                            # val = ['21.02.2022         13:54']     
+                            row = rows[ind+2*p_ind + 0]
+                            val = row[0]  
+                            v1 = f'{val[6:10]}-{val[3:5]}-{val[0:2]}' #  '%d.%m.%Y' -> '%Y-%m-%d'
+                            v2 = val[-5:]
+                            r1[0] = v1
+                            r1[1] = v2
+
+                            # val = ['22.02.2022          209281']
+                            row = rows[ind+2*p_ind + 1]
+                            val = row[0]
+                            v1 = f'{val[6:10]}-{val[3:5]}-{val[0:2]}' #  '%d.%m.%Y' -> '%Y-%m-%d'
+                            v2 = val[-6:]
+                            r2[0] = v1
+                            r2[1] = v2
+
+                            # val = ['Перевод с карты']
+                            row = rows[ind + 2*packet + 2*p_ind + 0]
+                            val = row[0]
+                            r1[3] = val
+
+                            # val = ['SBOL перевод 4276****9099 П. ДЕНИС ЮРЬЕВИЧ']
+                            row = rows[ind + 2*packet + 2*p_ind + 1]
+                            val = row[0]
+                            r2[3] = val
+
+                            # val = ['125 000,00                           70 228,77']
+                            row = rows[ind + 4*packet + p_ind]
+                            val = row[0]
+                            lst = val.split('   ')
+                            v1 = lst[0]
+                            v2 = lst[-1]
+                            r1[5] = v1
+                            r1[7] = v2
+                            rows1.append(r1)
+                            rows1.append(r2)
+                        ind += 5*packet
         ind +=1
 
-    
     if len(rows) < 19:
         res['error_text'] = f'При попытке чтения XML файла возникла ошибка формата файла. Недостаточная длина строк (код 201).\n\
             количество строк: {len(rows)}'
